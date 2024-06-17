@@ -1,0 +1,141 @@
+/* App.css */
+
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  padding: 0;
+}
+
+/* Main container styling */
+.App {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Headings */
+h3 {
+  margin-top: 0;
+  font-weight: 600;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Input styling */
+input[type="search"],
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Data container styling */
+.data {
+  display: flex;
+  flex-wrap: wrap; /* Added for responsive design */
+  border: 1px solid;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  flex: 1 1 300px;
+  transition: all 0.3s ease-in-out;
+}
+
+.list span {
+  flex: 1;
+}
+
+button.buttonToggle {
+  background-color: transparent;
+  color: #333;
+  font-size: 2rem;
+}
+
+button span {
+  background-color: transparent;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.list button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f44336;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.list button:hover {
+  background-color: #d32f2f;
+}
+
+/* Clear button styling */
+.clear {
+  padding: 10px 20px;
+  margin-top: 10px;
+
+  border: none;
+  border-radius: 4px;
+  background-color: #f44336;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.clear:hover {
+  background-color: #d32f2f;
+}
